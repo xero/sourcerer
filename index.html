@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+        <!--
+           ██████  ██████  ██   ██ ██████  █████   █████  ██████  █████  ██████
+          ██░░░░  ██░░░░██░██  ░██░░██░░████░░░██ ██░░░██░░██░░████░░░██░░██░░██
+         ░░█████ ░██   ░██░██  ░██ ░██ ░░░██  ░░ ░███████ ░██ ░░░███████ ░██ ░░
+          ░░░░░██░██   ░██░██  ░██ ░██   ░██   ██░██░░░░  ░██   ░██░░░░  ░██   
+          ██████ ░░██████ ░░██████░███   ░░█████ ░░██████░███   ░░██████░███   
+         ░░░░░░   ░░░░░░   ░░░░░░ ░░░     ░░░░░   ░░░░░░ ░░░     ░░░░░░ ░░░   
+          r  e  a  d     c  o  d  e     l  i  k  e     a     w  i  z  a  r  d 
+        -->
+    	<title>sourcerer color scheme</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="sourcerer color scheme">
+		<meta name="author" content="xero harrison">
+		<meta name="keywords" content="sourcerer, color, colors, color scheme, 16 colors, 16colors, theme, xcolors, xdefaults, xresources, vim, unix, linux, rice">
+		<link rel="shortcut icon" href="ui/ico/favicon.ico">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ui/ico/icon-144.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ui/ico/icon-114.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ui/ico/icon-72.png">
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="ui/ico/icon-57.png">
+		<link rel="stylesheet" type="text/css" href="ui/css/app.css" />
+		<script src="ui/js/modernizr.js"></script>
+	</head>
+	<body>
+         <section>
+            <article>
+                <aside class="lightBlack">#272822</aside>
+                <aside class="lightGreen">#b1d631</aside>
+                <aside class="lightOrange">#ff9800</aside>
+                <aside class="lightRed">#aa4450</aside>
+            </article>  
+            <article>
+                <aside class="lightMagenta">#8181a6</aside>
+                <aside class="lightBlue">#90b0d1</aside>
+                <aside class="lightCyan">#87ceeb;</aside>
+                <aside class="lightWhite">#d0d0d0</aside>
+            </article>
+       </section>
+        <section>
+            <article> 
+                <aside class="darkBlack">#222222</aside>
+                <aside class="darkGreen">#719611</aside>
+                <aside class="darkOrange">#cc8800</aside>
+                <aside class="darkRed">#ff6a6a</aside>
+            </article>
+            <article>
+                <aside class="darkMagenta">#8f6f8f</aside>
+                <aside class="darkBlue">#6688aa</aside>
+                <aside class="darkCyan">#528b8b</aside>
+                <aside class="darkWhite">#c6c6c6</aside>
+            </article>
+        </section>
+         <section>
+            <main>
+                <h1>sourcerer</h1>
+                <h3>read code like a wizard</h3>
+                <p><img src="ui/img/vim.png" alt="sourcerer vim" title="sourcerer vim" /></p>
+                <p>a 16 bit color scheme for hackers.</p>
+                <p><img src="ui/img/xcolors.png" alt="xcolors" title="xcolors" /></p>
+                <blockquote>sourcerer by <a href="http://xero.nu">xero harrison</a><br/>&nbsp;├─ based on sorcerer by <a href="http://jeetworks.org">Jeet Sukumaran</a><br/>&nbsp;└─ based on mustang by <a href="mailto:hcarvalhoalves@gmail.com">Henrique C. Alves</a></blockquote>
+                <br/>
+                <h3>download</h3>
+                <ul>
+                    <li><i class="fa-git"></i>clone the <a href="http://git.io/sourcerer.colors">git repo</a></li>
+                    <li><i class="fa-download"></i>or grab a single config
+                        <ul>
+                            <li><i class="fa-file-code-o"></i><a href="http://git.io/sourcerer.vim">vim</a></li>
+                            <li><i class="fa-file-code-o"></i><a href="http://git.io/sourcerer.xresources">x resources</a></li>
+                            <li><i class="fa-file-code-o"></i><a href="http://git.io/sourcerer.sh">framebuffer</a></li>
+                            <li><i class="fa-file-code-o"></i><a href="http://git.io/sourcerer.itermcolors">iterm</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <br/>
+                <h3>install</h3>
+                <h4>vim</h4>
+                <p>copy <a href="https://github.com/xero/sourcerer/blob/master/sourcerer.vim">sourcerer.vim</a> to <kbd>~/.vim/colors/</kbd> and in your <kbd>~/.vimrc</kbd> add <kbd>colorscheme sourcerer</kbd> and turn <kbd>:syntax on</kbd>.</p>
+                <h4>Xresources</h4>
+                <p>copy the contents of <a href="https://github.com/xero/sourcerer/blob/master/sourcerer.Xresources">sourcerer.Xresources</a> into your <kbd>~/.Xresources</kbd> or <kbd>~/.Xdefaults</kbd> file. your system may require you to call <kbd>xrdb -merge ~/.Xresources</kbd> and/or restart your terminal emulator.</p>
+                <h4>framebuffer</h4>
+                <p>copy <a href="https://github.com/xero/sourcerer/blob/master/sourcerer.sh">sourcerer.sh</a> into your home directory and add <kbd>source ~/sourcerer.sh</kbd> to your shell init script <kbd>~/.bashrc</kbd> or <kbd>~/.zshrc</kbd>. colors will only be applied in a new tty session.</p>
+                <h4>iterm</h4>
+                <p>launch iterm/item2, type <kbd>CMD+i</kbd>, navigate to <kbd>Colors</kbd> tab, click on <kbd>Load Presets</kbd>, click on <kbd>Import</kbd> and select <a href="https://github.com/xero/sourcerer/blob/master/sourcerer.itermcolors">sourcerer.itermcolors</a>.</p>
+                <br/>
+                <p><img src="ui/img/sourcerer_shell.gif" alt="sourcerer vim" title="sourcerer shell" /></p>
+                <br/>
+            </main>
+        </section>
+ 		<footer>
+			<section>
+				<main>
+					<aside class="copyright">
+						<a class="cc" href="http://creativecommons.org/licenses/by-sa/3.0/" title="creative commons - attribution-shareAlike 3.0 unported"><span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-creative-commons fa-stack-1x"></i></span></a> &nbsp;MMXV&nbsp; <a href="http://xero.nu">xero harrison</a>
+					</aside>
+					<img src="ui/img/metroid-larva.gif" id="metroid-larva" />
+					<img src="ui/img/metroid.gif" id="metroid" />
+					<aside class="meta">
+						<a href="http://git.io/sourcerer.colors" title="view the source with git"><i class="fa fa-git"></i></a>
+						<a href="http://validator.w3.org/check" title="html5 valid"><i class="fa fa-html5"></i></a>
+						<a href="http://jigsaw.w3.org/css-validator/" title="css3 valid"><i class="fa fa-css3"></i></a>
+					</aside>
+				</main>
+			</section>
+		</footer>
+		<script src="ui/js/libs.min.js"></script>
+	</body>
+</html>

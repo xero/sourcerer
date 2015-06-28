@@ -1,0 +1,26 @@
+/* humanstxt.org */
+
+/* site */
+	standards: html5, css3, sass
+	components: jquery, foundation, modernizr, fontawesome
+	software: sublime text, git, gruntjs, photoshop, fontforge
+
+/* designer */
+	author: xero harrison
+	email: x@xero.nu
+	site: http://xero.nu
+
+/* jQuery */
+	copyright: 2005-2014 jQuery Foundation, Inc.
+	license: http://jquery.org/license
+	version: 2.1.1
+
+/* modernizr */
+	copyright: Faruk Ates, Paul Irish, Alex Sexton
+	license: http://modernizr.com/license
+	version: 2.8.1
+
+/* foundation framework */
+	copyright: 2014 zurb, an interaction design and design strategy firm in campbell, ca
+	site: http://foundation.zurb.com
+	version: 5

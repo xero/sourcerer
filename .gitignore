@@ -2,3 +2,5 @@ Thumbs.db
 *.DS_Store
 *.tmp
 *.log
+node_modules/
+.sass-cache/
