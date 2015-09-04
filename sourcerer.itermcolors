@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<[CDATA[
-   ██████  ██████  ██   ██ ██████  █████   █████  ██████  █████  ██████
-  ██░░░░  ██░░░░██░██  ░██░░██░░████░░░██ ██░░░██░░██░░████░░░██░░██░░██
- ░░█████ ░██   ░██░██  ░██ ░██ ░░░██  ░░ ░███████ ░██ ░░░███████ ░██ ░░
-  ░░░░░██░██   ░██░██  ░██ ░██   ░██   ██░██░░░░  ░██   ░██░░░░  ░██
-  ██████ ░░██████ ░░██████░███   ░░█████ ░░██████░███   ░░██████░███
- ░░░░░░   ░░░░░░   ░░░░░░ ░░░     ░░░░░   ░░░░░░ ░░░     ░░░░░░ ░░░
-  r  e  a  d     c  o  d  e     l  i  k  e     a     w  i  z  a  r  d
-
- sourcerer by xero harrison (http://sourcerer.xero.nu)
-  ├─ based on sorcerer by Jeet Sukumaran (http://jeetworks.org)
-  └─ based on mustang by Henrique C. Alves (hcarvalhoalves@gmail.com)
-]]>
 <plist version="1.0">
 <dict>
     <key>Ansi 0 Color</key>
