@@ -35,5 +35,7 @@ copy [sourcerer.sh](https://github.com/xero/sourcerer/blob/master/sourcerer.sh) 
 ##iterm
 launch iterm/item2, type `CMD+i`, navigate to `Colors` tab, click on `Load Presets`, click on `Import` and select [sourcerer.itermcolors](https://github.com/xero/sourcerer/blob/master/sourcerer.itermcolors).
 
+##pygments 
+copy [sourcerer.py](https://github.com/xero/sourcerer/blob/master/sourcerer.py) to your styles directory, ususally `/usr/lib/python3.5/site-packages/pygments/styles`. then set the style when you use the command: `pygmentize -O style=sourcerer -f console256 -g` (make it can alias like `ccat` or `c`).
 
 ![](https://raw.githubusercontent.com/xero/sourcerer/master/sourcerer_shell.gif)
