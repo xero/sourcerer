@@ -26,6 +26,8 @@ a 16 bit color scheme for hackers.
 ##vim
 copy [sourcerer.vim](https://github.com/xero/sourcerer/blob/master/sourcerer.vim) to `~/.vim/colors/` and in your `~/.vimrc` add `colorscheme sourcerer` and turn `:syntax on`.
 
+or install it from the [standalone repo](https://github.com/xero/sourcerer.vim) with your vim plugin manager e.g. `Plugin 'xero/sourcerer.vim'`
+
 ##Xresources
 copy the contents of [sourcerer.Xresources](https://github.com/xero/sourcerer/blob/master/sourcerer.Xresources) into your `~/.Xresources` or `~/.Xdefaults` file. your system may require you to call `xrdb -merge ~/.Xresources` and/or restart your terminal emulator.
 
