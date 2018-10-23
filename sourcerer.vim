@@ -1,10 +1,10 @@
 "   ██████  ██████  ██   ██ ██████  █████   █████  ██████  █████  ██████
 "  ██░░░░  ██░░░░██░██  ░██░░██░░████░░░██ ██░░░██░░██░░████░░░██░░██░░██
 " ░░█████ ░██   ░██░██  ░██ ░██ ░░░██  ░░ ░███████ ░██ ░░░███████ ░██ ░░
-"  ░░░░░██░██   ░██░██  ░██ ░██   ░██   ██░██░░░░  ░██   ░██░░░░  ░██   
-"  ██████ ░░██████ ░░██████░███   ░░█████ ░░██████░███   ░░██████░███   
-" ░░░░░░   ░░░░░░   ░░░░░░ ░░░     ░░░░░   ░░░░░░ ░░░     ░░░░░░ ░░░   
-"  r  e  a  d     c  o  d  e     l  i  k  e     a     w  i  z  a  r  d 
+"  ░░░░░██░██   ░██░██  ░██ ░██   ░██   ██░██░░░░  ░██   ░██░░░░  ░██
+"  ██████ ░░██████ ░░██████░███   ░░█████ ░░██████░███   ░░██████░███
+" ░░░░░░   ░░░░░░   ░░░░░░ ░░░     ░░░░░   ░░░░░░ ░░░     ░░░░░░ ░░░
+"  r  e  a  d     c  o  d  e     l  i  k  e     a     w  i  z  a  r  d
 "
 " sourcerer by xero harrison (http://sourcerer.xero.nu)
 "  ├─ based on sorcerer by Jeet Sukumaran (http://jeetworks.org)
@@ -30,7 +30,8 @@ hi DiffAdd      guifg=#000000 guibg=#3cb371 gui=NONE
 hi DiffDelete   guifg=#000000 guibg=#aa4450 gui=NONE
 hi DiffChange   guifg=#000000 guibg=#4f94cd gui=NONE
 hi DiffText     guifg=#000000 guibg=#8ee5ee gui=NONE
-hi Directory    guifg=#1e90ff guibg=NONE    gui=NONE
+" hi Directory    guifg=#1e90ff guibg=NONE    gui=NONE
+hi Directory    guifg=#90b0d1 guibg=NONE    gui=NONE
 hi ErrorMsg     guifg=#ff6a6a guibg=NONE    gui=bold
 hi FoldColumn   guifg=#68838b guibg=#4B4B4B gui=bold
 hi Folded       guifg=#406060 guibg=#232c2c gui=NONE
@@ -106,7 +107,7 @@ hi pythonExClass    guifg=#996666 guibg=NONE gui=NONE
 hi pythonDecorator  guifg=#888555 guibg=NONE gui=NONE
 hi link pythonDecoratorFunction pythonDecorator
 
-"  █▓▒░ 256 colors 
+"  █▓▒░ 256 colors
 hi Normal                 cterm=NONE             ctermbg=NONE  ctermfg=145
 hi ColorColumn            cterm=NONE             ctermbg=16    ctermfg=NONE
 hi Cursor                 cterm=NONE             ctermbg=241   ctermfg=fg
